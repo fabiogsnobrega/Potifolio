@@ -87,6 +87,14 @@ h3 { font-size: 1.06rem; }
 .skip-link { position: absolute; left: 12px; top: -100px; z-index: 20; padding: 10px 14px; background: var(--navy); color: var(--ivory); }
 .skip-link:focus { top: 12px; }
 
+@media (max-width: 1000px) {
+  .home-page .hero { flex: 0 0 auto; min-height: auto; }
+  .hero { grid-template-columns: 1fr; gap: 18px; padding-block: 34px; }
+  .hero-copy { max-width: 700px; }
+  .hero-art { width: min(100%, 520px); margin-inline: auto; }
+  .hero-art::before { inset: -6% 0; background-size: 170px 170px; opacity: .22; }
+}
+
 @media (max-width: 860px) {
   .site-header { flex-wrap: wrap; gap: 12px 20px; padding-block: 14px; }
   .main-navigation { order: 3; width: 100%; justify-content: space-between; }
@@ -95,7 +103,7 @@ h3 { font-size: 1.06rem; }
   .hero { grid-template-columns: 1fr; gap: 22px; padding-block: 38px; }
   .hero-copy { max-width: 680px; }
   .hero-art { width: min(100%, 560px); margin-inline: auto; }
-  .hero-art::before { inset: -8% 0; background-size: 190px 190px; }
+  .hero-art::before { inset: -4% 0; background-size: 160px 160px; opacity: .16; }
   .resume-layout { grid-template-columns: minmax(0, 1fr) minmax(200px, .65fr); gap: 30px; }
 }
 @media (max-width: 600px) {
