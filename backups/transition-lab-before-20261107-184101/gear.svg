@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <g id="gear-complete-centered">
+
+    <!-- CORPO E DENTES (Sua estrutura exata) -->
+    <path id="gear-body" d="
+        M 180 65
+        H 220
+        L 226 105
+        Q 240 110 251 119
+        L 286 99
+        L 314 127
+        L 294 162
+        Q 303 175 305 190
+        L 345 196
+        V 236
+        L 305 242
+        Q 300 258 291 269
+        L 311 304
+        L 283 332
+        L 248 312
+        Q 235 321 220 325
+        L 214 365
+        H 174
+        L 168 325
+        Q 153 320 141 311
+        L 106 331
+        L 78 303
+        L 98 268
+        Q 89 255 85 240
+        L 45 234
+        V 194
+        L 85 188
+        Q 90 173 99 161
+        L 79 126
+        L 107 98
+        L 142 118
+        Q 155 109 170 105
+        Z
+      " fill="#C5CEBA" stroke="#263D50" stroke-width="5" stroke-linejoin="round" />
+
+    <!-- ANEL INTERMEDIÁRIO (Centro real exato: x=195, y=215) -->
+    <circle cx="195" cy="215" r="85" fill="#B9C9D0" stroke="#263D50" stroke-width="4" />
+
+    <!-- ABERTURAS INTERNAS (Simétricas ao redor de 195, 215) -->
+    <g fill="#F3EFE6" stroke="#263D50" stroke-width="3" stroke-linejoin="round">
+      <circle cx="195" cy="163" r="11" />
+      <circle cx="247" cy="215" r="11" />
+      <circle cx="195" cy="267" r="11" />
+      <circle cx="143" cy="215" r="11" />
+    </g>
+
+    <!-- MIOLO / CUBO CENTRAL -->
+    <circle cx="195" cy="215" r="44" fill="#F3EFE6" stroke="#263D50" stroke-width="4" />
+
+    <!-- EIXO INTERNO (Terracota) -->
+    <circle cx="195" cy="215" r="22" fill="#D8B9A8" stroke="#263D50" stroke-width="3" />
+
+    <!-- FURO CENTRAL -->
+    <circle cx="195" cy="215" r="8" fill="#263D50" />
+
+  </g>
+</svg>

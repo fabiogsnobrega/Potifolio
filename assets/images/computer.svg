@@ -1,0 +1,109 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 300"
+  fill="none"
+>
+  <g id="computer">
+
+    <!-- MONITOR -->
+    <g id="monitor">
+
+      <g id="monitor-frame">
+        <rect
+          x="80" y="35"
+          width="240" height="170"
+          rx="12"
+          fill="#F3EFE6"
+          stroke="#263D50"
+          stroke-width="5"
+        />
+      </g>
+
+      <g id="monitor-screen">
+        <rect
+          x="94" y="49"
+          width="212" height="138"
+          rx="4"
+          fill="#B9C9D0"
+          stroke="#263D50"
+          stroke-width="2"
+        />
+      </g>
+
+      <g id="monitor-indicator">
+        <circle
+          cx="200" cy="196"
+          r="2.5"
+          fill="#D8B9A8"
+        />
+      </g>
+
+    </g>
+
+    <!-- SUPORTE -->
+    <g id="stand">
+
+      <g id="stand-neck">
+        <path
+          d="M184 205 H216 L222 235 H178 Z"
+          fill="#C5CEBA"
+          stroke="#263D50"
+          stroke-width="4"
+          stroke-linejoin="round"
+        />
+      </g>
+
+      <g id="stand-base">
+        <path
+          d="M159 235 H241 Q245 235 245 239 V239 Q245 243 241 243 H159 Q155 243 155 239 V239 Q155 235 159 235 Z"
+          fill="#D8D0B5"
+          stroke="#263D50"
+          stroke-width="3"
+        />
+      </g>
+
+    </g>
+
+    <!-- TECLADO -->
+    <g id="keyboard">
+
+      <g id="keyboard-body">
+        <path
+          d="M111 257 H289 Q295 257 295 263 V279 Q295 285 289 285 H111 Q105 285 105 279 V263 Q105 257 111 257 Z"
+          fill="#F3EFE6"
+          stroke="#263D50"
+          stroke-width="3"
+          stroke-linejoin="round"
+        />
+      </g>
+
+      <g id="keyboard-keys"
+        fill="#D8B9A8"
+        stroke="none"
+      >
+        <!-- Fileira superior -->
+        <rect x="117" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="136" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="155" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="174" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="193" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="212" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="231" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="250" y="263" width="13" height="4" rx="1.5"/>
+        <rect x="269" y="263" width="13" height="4" rx="1.5"/>
+
+        <!-- Fileira inferior -->
+        <rect x="121" y="271" width="16" height="4" rx="1.5"/>
+        <rect x="143" y="271" width="16" height="4" rx="1.5"/>
+        <rect x="165" y="271" width="16" height="4" rx="1.5"/>
+        <rect x="187" y="271" width="26" height="4" rx="1.5"/>
+        <rect x="219" y="271" width="16" height="4" rx="1.5"/>
+        <rect x="241" y="271" width="16" height="4" rx="1.5"/>
+        <rect x="263" y="271" width="16" height="4" rx="1.5"/>
+      </g>
+
+    </g>
+
+  </g>
+</svg>

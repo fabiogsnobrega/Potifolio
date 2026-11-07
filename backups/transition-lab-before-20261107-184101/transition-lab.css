@@ -1,0 +1,97 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F3EFE6;
+  color: #263D50;
+  font-family: Arial, sans-serif;
+}
+
+.laboratory {
+  width: min(90%, 650px);
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.subtitle {
+  color: #68777C;
+  font-size: 14px;
+}
+
+.transition-stage {
+  position: relative;
+  width: min(400px, 90vw);
+  height: 400px;
+  margin: 35px auto;
+}
+
+#computer-container {
+  z-index: 1;
+}
+
+#themis-container {
+  z-index: 2;
+}
+
+#gear-container {
+  z-index: 3;
+}
+
+.artwork {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.artwork svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+#transition-button {
+  padding: 13px 24px;
+  border: 1px solid #263D50;
+  border-radius: 5px;
+  background: transparent;
+  color: #263D50;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#transition-button:hover:not(:disabled) {
+  background: #263D50;
+  color: #F3EFE6;
+}
+
+#transition-button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+.instruction {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #68777C;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #transition-button {
+    transition: none;
+  }
+}

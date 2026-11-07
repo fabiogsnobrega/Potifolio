@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SVG Morphing Lab</title>
+
+    <style>
+
+        body {
+            background: #F3EFE6;
+            color: #263D50;
+            font-family: Arial, sans-serif;
+
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        svg {
+            width: 320px;
+            max-width: 85vw;
+        }
+
+        .shape {
+            fill: #B9C9D0;
+            stroke: #263D50;
+            stroke-width: 4;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #263D50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>SVG Morphing Lab</h1>
+
+    <svg viewBox="0 0 400 400">
+
+        <path
+            id="shape"
+            class="shape"
+            d="
+                M 200 80
+                C 266 80 320 134 320 200
+                C 320 266 266 320 200 320
+                C 134 320 80 266 80 200
+                C 80 134 134 80 200 80
+                Z
+            "
+        />
+
+    </svg>
+
+    <button id="transform">
+        Transformar forma
+    </button>
+
+    <script src="js/morphing.js"></script>
+
+</body>
+
+
+</html>

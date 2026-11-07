@@ -1,0 +1,8 @@
+.transition-lab-widget { width: 100%; padding: 0; border: 0; background: transparent; }
+.transition-lab-widget .transition-stage { position: relative; width: min(400px, 100%); aspect-ratio: 4 / 3; margin: 0 auto; }
+.transition-lab-widget .artwork { position: absolute; inset: 0; display: block; width: 100%; height: 100%; pointer-events: none; }
+.transition-lab-widget #computer-container { z-index: 1; }
+.transition-lab-widget #themis-container { z-index: 2; }
+.transition-lab-widget #gear-container { z-index: 3; }
+.transition-lab-widget .artwork svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.hero-art .transition-stage { width: min(100%, 580px); }
